@@ -2,9 +2,10 @@ import streamlit as st
 st.header("Cabeçalho")
 
 st.multiselect(
-    'Números da Mega Sena',
-    ['45','78','96','20','21'],
-    ['61','87'])
+    "What are your favorite colors",
+    ["Green", "Yellow", "Red", "Blue"],
+    ["Yellow", "Red"],
+)
 
 st.checkbox('Sorvete')
 st.checkbox('Café')
