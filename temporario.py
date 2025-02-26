@@ -1,7 +1,7 @@
 import streamlit as st
 st.header("Cabeçalho")
 st.multiselect(
-  'Números da Mega Sena'
+  'Números da Mega Sena',
   ['31','62','98','100','20','12'],
   ['81','52'])
 st.toggle("Toggle")
