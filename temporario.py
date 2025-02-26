@@ -6,6 +6,9 @@ st.multiselect(
     ['45','78','96','20','21'],
     ['61','87'])
 
+st.checkbox('Sorvete')
+st.checkbox('Café')
+st.checkbox9('Refrigerante')
     
 st.toggle("Toggle")
 st.button("Botão Salvar")
