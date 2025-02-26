@@ -1,11 +1,12 @@
 import streamlit as st
 st.header("Cabeçalho")
 
-options = st.multiselect(
-    "What are your favorite colors",
-    ["Green", "Yellow", "Red", "Blue"],
-    ["Yellow", "Red"],
-)
+st.multiselect(
+    'Números da Mega Sena',
+    ['45','78','96','20','21'],
+    ['61','87'])
+
+    
 st.toggle("Toggle")
 st.button("Botão Salvar")
 st.text_area("Adicione texto")
