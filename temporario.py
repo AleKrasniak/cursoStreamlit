@@ -24,9 +24,14 @@ df = pd.DataFrame(
 )
 
 edited_df = st.data_editor(df)
-st.snow(        
-st.toggle("Toggle")
-)
+
+nevinha = st.toggle("Toggle")
+if nevinha:
+st.snow()
+else
+st.write("Peidou na farofa")
+    
+
 st.button("Botão Salvar")
 st.text_area("Adicione texto")
 st.text_input("")
