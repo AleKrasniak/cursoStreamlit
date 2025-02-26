@@ -15,7 +15,7 @@ st.color_picker("Pick a color", "#00f900")
 st.feedback("stars")
 
 df = pd.DataFrame(
-    [
+    [   
         {"command": "st.selectbox", "rating": 4, "is_widget": True},
         {"command": "st.ballons", "rating": 5, "is_widget": False},
         {"command": "st.time_input", "rating": 3, "is_widget": False},
