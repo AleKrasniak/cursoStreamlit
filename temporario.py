@@ -2,9 +2,9 @@ import streamlit as st
 st.header("Cabeçalho")
 
 options = st.multiselect(
-    "teste",
-    ["1", "2", "3", "4"],
-    ["5", "6"],
+    "What are your favorite colors",
+    ["Green", "Yellow", "Red", "Blue"],
+    ["Yellow", "Red"],
 )
 
 st.checkbox('Sorvete')
