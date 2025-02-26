@@ -28,7 +28,7 @@ edited_df = st.data_editor(df)
 nevinha = st.toggle("Toggle")
 if nevinha:
     st.snow()
-else
+else:
     st.write("Peidou na farofa")
     
 
