@@ -4,7 +4,6 @@ st.multiselect(
   'Números da Mega Sena'
   ['31','62','98','100','20','12'],
   ['81','52'])
-)
 st.toggle("Toggle")
 st.button("Botão Salvar")
 st.text_area("Adicione texto")
