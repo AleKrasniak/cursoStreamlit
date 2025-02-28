@@ -9,7 +9,7 @@ with col1:
     "Escolha uma foto", accept_multiple_files=True
   )
   if files is not None: 
-  try:
-    ulloaded = Image.open(uploaded_files)
-  except: 
-    st.error("Imagem não enviada")
+    try:
+      ulloaded = Image.open(uploaded_files)
+    except: 
+      st.error("Imagem não enviada")
