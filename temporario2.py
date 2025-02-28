@@ -10,6 +10,6 @@ with col1:
   )
 
   for uploaded_file in uploaded_files:
-  bytes_data = uploaded_file.read()
-  st.write("filename:", uploaded_file.name
-  st.write (bytes_data)
+    bytes_data = uploaded_file.read()
+    st.write("filename:", uploaded_file.name
+    st.write (bytes_data)
