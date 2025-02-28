@@ -8,8 +8,8 @@ with col1:
   uploaded_files = st.file_uploader(
     "Escolha uma foto", accept_multiple_files=True
   )
-
-  for uploaded_file in uploaded_files:
-    bytes_data = uploaded_file.read()
-    st.write("filename:", uploaded_file.name)
-    st.write (bytes_data)
+  if files is not None: 
+  try:
+    ulloaded = Image.open(uploaded_files)
+  except: 
+    st.error("Imagem não enviada")
