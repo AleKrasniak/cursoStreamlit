@@ -5,7 +5,7 @@ st.header("Informe Seus Dados")
 col1, col2 = st.columns(2)
 
 with col1:
-  uploadedfiles = st.file_uploader(
+  uploaded_files = st.file_uploader(
     "Escolha uma foto", accept_multiple_files=True
   )
 
