@@ -28,6 +28,9 @@ edited_df = st.data_editor(df)
 nevinha = st.toggle("Toggle")
 if nevinha:
     st.snow()
+    st.snow()
+    st.snow()
+    st.snow()
 else:
     st.write("Peidou na farofa")
     
