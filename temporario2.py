@@ -8,8 +8,8 @@ with col1:
   uploaded_files = st.file_uploader(
     "Escolha uma foto", accept_multiple_files=True
   )
-  if files is not None: 
+  if file is not None: 
     try:
-      ulloaded = Image.open(uploaded_files)
+      uploaded = Image.open(uploaded_files)
     except: 
       st.error("Imagem não enviada")
