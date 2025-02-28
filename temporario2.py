@@ -10,6 +10,6 @@ with col1:
   )
   if uploaded_files is not None: 
     try:
-      uploaded = Image.open(uploaded_files)
+      uploaded_files = Image.open(uploaded_files)
     except: 
       st.error("Imagem não enviada")
