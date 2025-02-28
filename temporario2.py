@@ -8,7 +8,7 @@ with col1:
   uploaded_files = st.file_uploader(
     "Escolha uma foto", accept_multiple_files=True
   )
-  if file is not None: 
+  if uploaded_files is not None: 
     try:
       uploaded = Image.open(uploaded_files)
     except: 
