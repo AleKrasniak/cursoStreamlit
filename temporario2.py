@@ -10,10 +10,6 @@ from PIL import Image, ImageEnhance
 
 import streamlit as st
 
-sys.path.insert(0, ".")
-from sophisticated_palette.utils import show_palette, model_dict, get_palette, \
-    sort_func_dict, store_palette, display_matplotlib_code, display_plotly_code,\
-     get_df_rgb, enhancement_range, plot_rgb_3d, plot_hsv_3d, print_praise
 
 
 gallery_files = glob(os.path.join(".", "images", "*"))
