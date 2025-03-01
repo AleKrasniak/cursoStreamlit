@@ -4,7 +4,6 @@ st.header("Informe Seus Dados")
 
 col1, col2 = st.columns(2)
 
-with col1:
 with upload_tab:
     file = st.file_uploader("Upload Art", key="file_uploader")
     if file is not None:
