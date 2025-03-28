@@ -5,6 +5,7 @@ print("peido")
 st.title("Programa Aumento Salarial")
 
 
-with st.container(): 
+container = st.container (border=True) 
+with container():
   Nome = st.text_input("Informe seu nome","Nome")
 
