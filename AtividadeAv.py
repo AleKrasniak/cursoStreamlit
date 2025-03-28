@@ -12,7 +12,7 @@ def ExibirDados():
   with st.container(border = True):
     DataNasc = st.date_input("Informe sua data de nascimento")
   with st.container(border = True):
-    EstadoCivil = st.text_input("Informe seu estado cívil"(Solteiro, Casado, Divorciado, Viúvo))
+    EstadoCivil = st.text_input("Informe seu estado cívil",(Solteiro, Casado, Divorciado, Viúvo))
 
 
 ExibirDados()
