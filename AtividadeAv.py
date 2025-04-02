@@ -4,14 +4,13 @@ import streamlit as st
 
 st.title("Programa Aumento Salarial")
 
-def Calculos():
-  
+ 
   
 
 
 
 # container = st.container (border=True) 
-def Main():
+def main():
   with st.container(border = True):
     Nome = st.text_input("Informe seu nome",)
     
@@ -41,4 +40,6 @@ def Calculos():
     print("Deve receber Aumento")
 
 
-def Main()
+main(
+  calculos()
+)
