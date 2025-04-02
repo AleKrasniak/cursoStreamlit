@@ -36,7 +36,7 @@ def main():
 #SELECT BOX
 
 def Calculos():
-  if (Salario < 2.500.0):
+  if (Salario < 2.500):
     print("Deve receber Aumento")
 
 
