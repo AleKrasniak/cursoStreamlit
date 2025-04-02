@@ -16,6 +16,11 @@ def ExibirDados():
       "Informe seu estado cívil", 
       ("Solteiro", "Casado", "Divorciado", "Viúvo"),
     )
+  with st.container(border = True):
+    Sexo = st.selectbox(
+      "Informe seu gênero", 
+      ("Masculino", "Feminino",),
+    )
     
 #SELECT BOX
 ExibirDados()
