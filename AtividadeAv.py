@@ -14,7 +14,7 @@ def ExibirDados():
   with st.container(border = True):
     EstadoCivil = st.selectbox(
       "Informe seu estado cívil", 
-      (zap, Casado, Divorciado, Viúvo),
+      ("Solteiro", "Casado", "Divorciado", "Viúvo"),
     )
     
 #SELECT BOX
