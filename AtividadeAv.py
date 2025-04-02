@@ -30,7 +30,7 @@ def main():
       "Informe seu salário", 
     )
   if st.button("teste"): 
-   if Salario < 2.500:
+   if Salario < 2500:
     st.write("Deve receber Aumento")
 
    else:
