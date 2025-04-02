@@ -12,6 +12,10 @@ def ExibirDados():
   with st.container(border = True):
     DataNasc = st.date_input("Informe sua data de nascimento")
   with st.container(border = True):
-    EstadoCivil = st.selectbox("Informe seu estado cívil", (Solteiro, Casado, Divorciado, Viúvo))
+    EstadoCivil = st.selectbox(
+      "Informe seu estado cívil", 
+      (Solteiro, Casado, Divorciado, Viúvo),
+    )
+    
 #SELECT BOX
 ExibirDados()
