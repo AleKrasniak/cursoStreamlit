@@ -30,7 +30,7 @@ def main():
       "Informe seu salário", 
     )
    
-  if (Salario < 2.500):
+  if (Salario < 2.500.00):
    st.write("Deve receber Aumento")
 
   else:
