@@ -35,7 +35,7 @@ def main():
     Salario = st.number_input(
       "Informe seu salário", 
     )
- Calculos()
+  Calculos()
    
 
 #SELECT BOX
