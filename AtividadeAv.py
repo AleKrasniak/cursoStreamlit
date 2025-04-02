@@ -6,8 +6,10 @@ st.title("Programa Aumento Salarial")
 
  
   
-
-
+Salario = 0.0
+def Calculos():
+  if (Salario < 2.500):
+    print("Deve receber Aumento")
 
 # container = st.container (border=True) 
 def main():
@@ -33,12 +35,12 @@ def main():
     Salario = st.number_input(
       "Informe seu salário", 
     )
-   Calculos()
+ Calculos()
+   
+
 #SELECT BOX
 
-def Calculos():
-  if (Salario < 2.500):
-    print("Deve receber Aumento")
+
 
 
 main()
