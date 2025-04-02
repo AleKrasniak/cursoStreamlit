@@ -40,6 +40,7 @@ def Calculos():
     print("Deve receber Aumento")
 
 
-main()
- Calculos()
+main(
+Calculos()
+)
 
