@@ -31,10 +31,10 @@ def main():
     )
    
   if (Salario < 2.500):
-   print("Deve receber Aumento")
+   st.write("Deve receber Aumento")
 
   else:
-   print("peido")
+   st.write("peido")
 
    
 
