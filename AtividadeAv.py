@@ -35,8 +35,10 @@ def Main():
       "Informe seu salário", 
     )
 #SELECT BOX
-Main()
+
 def Calculos():
   if (Salario < 2.500.0):
     print("Deve receber Aumento")
 
+
+def Main()
