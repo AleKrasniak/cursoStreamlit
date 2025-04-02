@@ -30,8 +30,8 @@ def main():
       "Informe seu salário", 
     )
    
- if (Salario < 2.500):
-  print("Deve receber Aumento")
+  if (Salario < 2.500):
+   print("Deve receber Aumento")
 
 
    
