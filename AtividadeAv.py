@@ -41,5 +41,5 @@ def Calculos():
 
 
 main(
-  calculos()
+calculos()
 )
