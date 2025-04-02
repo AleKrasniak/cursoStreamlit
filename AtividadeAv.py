@@ -4,9 +4,14 @@ import streamlit as st
 
 st.title("Programa Aumento Salarial")
 
+def Calculos():
+  
+  
+
+
 
 # container = st.container (border=True) 
-def ExibirDados():
+def Main():
   with st.container(border = True):
     Nome = st.text_input("Informe seu nome",)
     
@@ -29,6 +34,9 @@ def ExibirDados():
     Salario = st.number_input(
       "Informe seu salário", 
     )
-    
 #SELECT BOX
-ExibirDados()
+Main()
+def Calculos():
+  if (Salario < 2.500.0):
+    print("Deve receber Aumento")
+
