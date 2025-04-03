@@ -40,7 +40,7 @@ if st.button("teste"):
    aumento = aumento + 100
    st.write("Seu aumento foi de R$: ",aumento,)
 
-  else:
+ else:
    st.write("peido")
 
 
