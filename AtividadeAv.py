@@ -32,7 +32,7 @@ def main():
   if st.button("teste"): 
    if Salario < 2500:
     st.write("Deve receber Aumento") 
-    st.balloons
+    methodstreamlit.delta_generator.BalloonsMixin.balloons() 
 
     aumento = 0.0
     while aumento < 500:
