@@ -36,14 +36,12 @@ def main():
      while (aumento < 500):
       aumento = aumento + 100
    
- @st.dialog("Cast your vote")
-def aumento(item):
-    st.write(f"Why is {item} your favorite?")
-    reason = st.text_input("Because...")
+@st.dialog("Cast your vote")
+def aumento(aumento):
+    st.write(f"aaaa")
     if st.button("Submit"):
-        st.session_state.vote = {"item": item, "reason": reason}
-        st.rerun()
- st.write("Seu aumento foi de R$: ",aumento,)
+        st.session_state.vote = {"item": aumento,}
+ # st.write("Seu aumento foi de R$: ",aumento,)
  
     else:
      st.write("peido")
