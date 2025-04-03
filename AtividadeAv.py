@@ -30,7 +30,7 @@ def main():
       "Informe seu salário", 
     )
 
-open_modal = st.button("Teste")
+if open_modal = st.button("Teste")
 if open_modal:
     modal.open()
   # if st.button("teste"): 
