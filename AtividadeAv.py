@@ -30,33 +30,11 @@ def main():
       "Informe seu salário", 
     )
 
-iopen_modal = st.button("Teste")
-if open_modal:
-    modal.open()
-  if st.button("teste"):
-   iopen_modal = st.button("Teste")
-  if open_modal:
-    modal.open()
- if Salario < 2500:
-  st.balloons() 
-  st.write("Deve receber Aumento") 
-  modal = Modal(
-  "Demo Modal", 
-  key="demo-modal",
-    
-    # Optional
-  padding=20,    # default value
-  max_width=744  # default value
-)
-if modal.is_open():
-    with modal.container():
-        st.write("Text goes here")
-
-        st.write("Some fancy text")
-        value = st.checkbox("Check me")
-        st.write(f"Checkbox checked: {value}")
-    
-
+ if st.button("teste"):
+  if Salario < 2500:
+   st.balloons() 
+   st.write("Deve receber Aumento") 
+  
     aumento = 0.0
     while aumento < 500:
      aumento = aumento + 100
