@@ -1,7 +1,7 @@
 import streamlit as st 
  
- 
- st.title("Programa Aumento Salarial")
+
+st.title("Programa Aumento Salarial")
  
  
  # container = st.container (border=True) 
