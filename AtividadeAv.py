@@ -2,7 +2,7 @@ st.title("Programa Aumento Salarial")
   
   
   # container = st.container (border=True) 
-  def main():
+def main():
     with st.container(border = True):
       Nome = st.text_input("Informe seu nome",)
   
@@ -39,4 +39,4 @@ st.title("Programa Aumento Salarial")
   
   
   
-  main()
+main()
