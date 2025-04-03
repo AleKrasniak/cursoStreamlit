@@ -35,15 +35,15 @@ if open_modal:
     modal.open()
   # if st.button("teste"): 
  if Salario < 2500:
-    st.balloons() 
-    st.write("Deve receber Aumento") 
-     modal = Modal(
-    "Demo Modal", 
-    key="demo-modal",
+  st.balloons() 
+  st.write("Deve receber Aumento") 
+  modal = Modal(
+  "Demo Modal", 
+  key="demo-modal",
     
     # Optional
-    padding=20,    # default value
-    max_width=744  # default value
+  padding=20,    # default value
+  max_width=744  # default value
 )
 if modal.is_open():
     with modal.container():
