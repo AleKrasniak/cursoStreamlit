@@ -36,7 +36,7 @@ def main():
      while (aumento < 500):
       aumento = aumento + 100
       @st.dialog("Informações")
-       st.write("Seu aumento foi de R$: ",aumento,)
+      st.write("Seu aumento foi de R$: ",aumento,)
  
     else:
      st.write("peido")
