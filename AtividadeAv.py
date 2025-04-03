@@ -30,10 +30,13 @@ def main():
       "Informe seu salário", 
     )
 
-if open_modal = st.button("Teste")
+iopen_modal = st.button("Teste")
 if open_modal:
     modal.open()
-  # if st.button("teste"): 
+  if st.button("teste"):
+   iopen_modal = st.button("Teste")
+  if open_modal:
+    modal.open()
  if Salario < 2500:
   st.balloons() 
   st.write("Deve receber Aumento") 
