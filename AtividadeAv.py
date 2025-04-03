@@ -37,7 +37,7 @@ if open_modal:
  if Salario < 2500:
   st.balloons() 
   st.write("Deve receber Aumento") 
-  modal == Modal(
+  modal = Modal(
   "Demo Modal", 
   key="demo-modal",
     
