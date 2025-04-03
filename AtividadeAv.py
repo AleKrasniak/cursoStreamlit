@@ -33,9 +33,8 @@ def main():
 open_modal = st.button("Teste")
 if open_modal:
     modal.open()
-
   # if st.button("teste"): 
-   if Salario < 2500:
+ if Salario < 2500:
     st.balloons() 
     st.write("Deve receber Aumento") 
      modal = Modal(
