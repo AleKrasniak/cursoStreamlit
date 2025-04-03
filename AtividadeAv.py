@@ -31,7 +31,7 @@ def main():
     )
 
 if st.button("teste"):
- if Salario < 2500:
+if Salario < 2500:
   st.balloons() 
   st.write("Deve receber Aumento") 
   
