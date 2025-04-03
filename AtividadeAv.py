@@ -29,10 +29,30 @@ def main():
     Salario = st.number_input(
       "Informe seu salário", 
     )
-  if st.button("teste"): 
+
+open_modal = st.button("Teste")
+if open_modal:
+    modal.open()
+
+  # if st.button("teste"): 
    if Salario < 2500:
     st.balloons() 
     st.write("Deve receber Aumento") 
+     modal = Modal(
+    "Demo Modal", 
+    key="demo-modal",
+    
+    # Optional
+    padding=20,    # default value
+    max_width=744  # default value
+)
+if modal.is_open():
+    with modal.container():
+        st.write("Text goes here")
+
+        st.write("Some fancy text")
+        value = st.checkbox("Check me")
+        st.write(f"Checkbox checked: {value}")
     
 
     aumento = 0.0
