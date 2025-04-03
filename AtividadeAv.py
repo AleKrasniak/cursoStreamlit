@@ -29,7 +29,7 @@ def main():
      if Salario < 2500:
       st.write("Deve receber Aumento")
 
-  aumento = 0.0
+    aumento = 0.0
     while (aumento < 500):
        aumento = aumento + 100
        st.write("Seu aumento foi de R$: ",aumento,)
