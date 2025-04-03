@@ -1,9 +1,9 @@
 import streamlit as st 
 
 
-
+aumento = 0.0
 st.title("Programa Aumento Salarial")
-aumento = 0
+
  
 # container = st.container (border=True) 
 def main():
