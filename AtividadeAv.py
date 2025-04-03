@@ -36,7 +36,7 @@ if st.button("teste"):
   st.write("Deve receber Aumento") 
   
  aumento = 0.0
-  while aumento < 500:
+ while aumento < 500:
    aumento = aumento + 100
    st.write("Seu aumento foi de R$: ",aumento,)
 
