@@ -40,5 +40,4 @@ def main():
      st.write("peido")
  
  
- 
- main()
+main()
