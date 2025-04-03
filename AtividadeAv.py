@@ -31,7 +31,8 @@ def main():
     )
   if st.button("teste"): 
    if Salario < 2500:
-    st.write("Deve receber Aumento") st.balloons
+    st.write("Deve receber Aumento") 
+    st.balloons
 
     aumento = 0.0
     while aumento < 500:
