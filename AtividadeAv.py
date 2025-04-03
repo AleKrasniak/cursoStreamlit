@@ -1,7 +1,7 @@
 import streamlit as st 
 
 
-aumento = 0.0
+# aumento = 0.0
 st.title("Programa Aumento Salarial")
 
  
@@ -32,7 +32,8 @@ def main():
   if st.button("teste"): 
    if Salario < 2500:
     st.write("Deve receber Aumento")
-    
+
+    aumento = 0.0
     while aumento <= 500:
      aumento = aumento + 100
      st.write("Seu aumento foi de R$: ",aumento,)
