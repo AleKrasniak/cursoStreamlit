@@ -30,6 +30,7 @@ def main():
     if st.button("Consultar Aumento Salarial"): 
       if Salario < 2500:
         st.write("Deve receber Aumento")
+        st.ballons():
         aumento = 0.0
         while (aumento < 500):
            aumento = aumento + 100
