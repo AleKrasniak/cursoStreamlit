@@ -34,8 +34,10 @@ def main():
         while (aumento < 500):
            aumento = aumento + 100
            st.write("Seu aumento foi de R$: ",aumento,)
+           salario = salario + aumento
+          st.write("Seu salário atual é de R$ ",salario,)
       else:
-        st.write("peido")
+        st.write("O Aumento não é necessário")
   
   
   
