@@ -27,7 +27,7 @@ def main():
       Salario = st.number_input(
         "Informe seu salário", 
       )
-    if st.button("teste"): 
+    if st.button("Consultar Aumento Salarial"): 
       if Salario < 2500:
         st.write("Deve receber Aumento")
         aumento = 0.0
