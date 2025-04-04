@@ -35,7 +35,8 @@ def main():
            aumento = aumento + 100
            st.write("Seu aumento foi de R$: ",aumento,)
            salario = salario + aumento
-          st.write("Seu salário atual é de R$ ",salario,)
+           st.write("Seu salário atual é de R$ ",salario,)
+          
       else:
         st.write("O Aumento não é necessário")
   
